@@ -1,0 +1,18 @@
+% Minimal coupling-related SU2 fragment only.
+% Merge with a validated physical NEMO case; this is NOT a standalone case.
+
+RESTART_SOL= YES
+MACH_NUMBER= 23.9
+
+% Initial/fallback wall temperature; the coupling runtime overwrites the
+% Python-custom wall values during coupled operation.
+MARKER_ISOTHERMAL= ( wall, 300.0 )
+MARKER_PYTHON_CUSTOM= ( wall )
+
+CFL_NUMBER= 0.2
+ITER= 20
+
+% Supply valid case-specific mesh/restart filenames.
+MESH_FILENAME= mesh.su2
+SOLUTION_FILENAME= restart_flow.dat
+RESTART_FILENAME= restart_flow.dat

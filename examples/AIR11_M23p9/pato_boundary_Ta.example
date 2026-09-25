@@ -1,0 +1,13 @@
+// PATO boundary fragment only. Merge into a validated PATO Ta field.
+// Face count and q values must match the actual coupled interface.
+
+top
+{
+    type    basicWallHeatFluxTemperature;
+    mode    flux;
+
+    q       nonuniform List<scalar>
+    0
+    (
+    );
+}
