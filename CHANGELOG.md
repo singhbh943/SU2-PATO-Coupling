@@ -4,6 +4,8 @@ All notable changes to this project will be documented here.
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-09-26
+
 ### Added
 - Persistent PySU2 ↔ PATO two-way coupling runtime.
 - Conservative SU2 wall-vertex to PATO face heat-flux mapping.

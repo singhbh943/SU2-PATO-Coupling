@@ -88,4 +88,4 @@ See `THIRD_PARTY_NOTICES.md`. This repository does not redistribute SU2, PATO, O
 
 ## Citation
 
-If you use this coupling layer in academic work, see `CITATION.cff` and replace the placeholder repository DOI/URL after the first public release.
+If you use this coupling layer in academic work, see `CITATION.cff`. The source repository is https://github.com/singhbh943/SU2-PATO-Coupling.

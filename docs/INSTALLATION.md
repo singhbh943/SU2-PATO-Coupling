@@ -7,8 +7,8 @@ Install and validate SU2 (including PySU2/NEMO support) and PATO independently. 
 ## 2. Clone the coupling repository
 
 ```bash
-git clone https://github.com/REPLACE_ME/su2-pato-coupling.git
-cd su2-pato-coupling
+git clone https://github.com/singhbh943/SU2-PATO-Coupling.git
+cd SU2-PATO-Coupling
 ```
 
 ## 3. Install into an SU2 source tree
