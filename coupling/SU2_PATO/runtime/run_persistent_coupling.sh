@@ -17,10 +17,6 @@ WORK="${SU2_PATO_WORK:-}"
 
 DRIVER="$ROOT/coupling/SU2_PATO/runtime/run_persistent_coupling.py"
 
-REFERENCE_PROFILE="$WORK/reference_su2_wall_profile.csv"
-
-REFERENCE_FACES="$WORK/reference_pato_faces.csv"
-
 MAP_T="$ROOT/coupling/SU2_PATO/map_pato_temperature_to_su2.py"
 
 PYSU2_RUN="$ROOT/coupling/SU2_PATO/runtime/run_pysu2.sh"
@@ -195,6 +191,9 @@ fi
 
 mkdir -p "$WORK"
 WORK="$(readlink -f "$WORK")"
+
+REFERENCE_PROFILE="${SU2_PATO_REFERENCE_PROFILE:-$WORK/reference_su2_wall_profile.csv}"
+REFERENCE_FACES="${SU2_PATO_REFERENCE_FACES:-$WORK/reference_pato_faces.csv}"
 
 for F in \
     "$CFG" \

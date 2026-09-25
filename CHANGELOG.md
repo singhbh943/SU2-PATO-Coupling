@@ -15,3 +15,6 @@ All notable changes to this project will be documented here.
 - Explicit heat-flux sign-convention documentation.
 - Runtime checks for wall count, finite values, coordinate mapping, and conservative heat-load transfer.
 - Installation, doctor, CI, and release-preparation tooling.
+
+### Fixed
+- Resolve interface reference paths after runtime argument parsing, so `--work` correctly selects the reference profile and face files.
